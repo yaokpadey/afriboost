@@ -351,3 +351,90 @@ button {
     font-size: 32px;
   }
 }
+@media (max-width: 600px) {
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .nav {
+    overflow: hidden;
+  }
+
+  .nav .container {
+    width: 100%;
+    min-width: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .links {
+    display: none !important;
+  }
+
+  .hero {
+    width: 100%;
+    overflow: hidden;
+    padding: 45px 0 50px;
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .hero h1 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 1.08;
+    letter-spacing: -1px;
+    overflow-wrap: anywhere;
+  }
+
+  .hero p {
+    width: 100%;
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+
+  .search {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .search input {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .search .btn-green {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .chips {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .chip {
+    max-width: 100%;
+    white-space: normal;
+  }
+}
